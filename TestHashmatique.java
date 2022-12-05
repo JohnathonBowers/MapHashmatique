@@ -13,8 +13,8 @@ public class TestHashmatique {
         Set<String> tracks = trackList.keySet();
         for (String track : tracks) {
             System.out.println("\r");
-            System.out.println(track);
-            System.out.println(trackList.get(track));
+            System.out.printf("\nTrack: %s", track);
+            System.out.printf("\nLyrics: %s", trackList.get(track));
         }
     }
 }
